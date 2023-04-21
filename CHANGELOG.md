@@ -1,17 +1,5 @@
 ## 1.2.7
 
-- Upgrade android-pdf-viewer to beta.3
-
-## 1.2.9
-
-- Deprecate `fitEachPage`
-
-## 1.2.8
-
-- Add documentation on properties
-
-## 1.2.7
-
 - Downgrade android-pdf-viewer from beta.3 to beta.2
 - Upgrade Gradle to 7.3.0
 
