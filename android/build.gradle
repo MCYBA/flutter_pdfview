@@ -2,6 +2,11 @@ group 'io.endigo.plugings.pdfview'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    ext {
+        compileSdkVersion = 31
+        targetSdkVersion = 31
+        androidXCore = "1.6.0"
+    }
     repositories {
         google()
         jcenter()
@@ -18,6 +23,11 @@ rootProject.allprojects {
         google()
         jcenter()
 //        mavenCentral()
+    }
+    configurations.all {
+        resolutionStrategy {
+            force 'androidx.core:core-ktx:1.6.0'
+        }
     }
 }
 
